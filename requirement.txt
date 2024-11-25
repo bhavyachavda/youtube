@@ -1,0 +1,45 @@
+-Requirement clarification
+    ->Features
+    ->Tech Stack 
+        ->Redux,
+        ->Tailwindcss
+        ->react-router-dom
+        ->bundler
+        ->jest, react-testing-library
+
+
+- Planning thing up
+
+
+-Debouncing concept
+
+typing slow = 200ms
+typing fast = 30ms
+
+Performance:
+    -iphone pro max = 14 letter * 1000 = 140000
+    -with Debouncing = 3 API call * 1000 = 3000
+
+Debouncing with 200ms
+- if difference between 2 key strokes is <200ms - DECLINE API call
+>200ms make an api call and show the result
+
+Cache:
+time complexity to search in array = O(n)
+time complexity to search in object = O(1)
+
+O(1) far far better than O(n)
+
+[i,ip,iph,iphone]
+
+{
+    i:   ["ipl"]
+    ip:  ["iphone"]
+    iphone: ["iphone 15"]
+}
+
+// Live chat >>>>> Infinite scroll >> pagination
+
+challenges of live chat
+- Get data of live chat
+- update the UI
